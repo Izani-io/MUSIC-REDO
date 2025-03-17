@@ -1,0 +1,788 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    
+}
+body{
+    overflow-x: hidden!important;
+    margin: 100px;
+
+}
+.navbar{
+    background-color: #292870;
+    color: white;
+}
+.offcanvas-body{
+    color: white;
+    background-color: #292870;
+}
+
+.offcanvas-body a{
+    color: rgb(255, 255, 255);
+}
+
+.van{
+    background-color: bisque!important;
+    color: #292870!important;
+}
+
+
+.sec_a{
+    background-color: bisque;
+}
+.sec_a h1{
+    font-size: 4rem;
+    width: 500px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.head{
+    text-align: center;
+    padding-top: 70px;
+    text-shadow: 3px 3px 13px rgba(0, 0, 0, 0.25);
+    text-transform: none;
+}
+.abut_grp{
+    display: grid;
+    margin-top: -50px;
+}
+
+.abut{
+    border-radius: 50px;
+    border-style: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.125rem;
+    align-self: center;
+    background-image: none;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.4);
+    margin: 100px 10px 1px 3px;
+    padding: 14px 40px 15px 38px;
+    
+}
+
+.butt{
+    background-color: rgb(41,40,112);
+    color: white;
+    margin-top: 0px;
+}
+.tat{
+    margin-bottom: 20px;
+
+}
+.butt:hover{
+    background-color: orange;
+}
+
+.tat:hover{
+    background-color: rgb(41,40,112);
+    color: whitesmoke;
+}
+
+.sec_b_sub{
+    background-color: rgb(41,40,112);
+    color: rgb(255, 165, 0);
+    box-sizing: border-box;
+    display: block;
+    position: relative;  
+    padding-top: 70px;
+    text-align: left; 
+    padding-left: 60px;
+}
+
+.boba{
+    color: white;
+    font-size: 1.7rem;
+}
+
+.textb{
+    padding-left: 10px;
+    width: 300px;
+    padding-bottom: 40px;
+}
+.unlimited{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.mediax{
+    padding-left: 10px;
+}
+
+.sec_bpic{
+    border-radius: 50% !important;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 227px;
+    height: 227px;
+    margin: 0 0px 50px 0;
+}
+
+.benefit{
+    font-weight: 700;
+    align-self: flex-start;
+    font-family: Roboto, sans-serif;
+    font-size: 1.875rem;
+}
+.dash{
+    width: 198px;
+    margin: 23px auto 0 0;
+}
+
+.sample_text{
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    width: 250px;
+    
+}
+
+.b_butt{
+    border-radius: 50px;
+    border-style: none;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 1.125rem;
+    background-image: none;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.25);
+    margin: 20px auto 80px 0;
+    padding: 15px 50px 13px 48px;
+    background-color: orange;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.b_butt:hover{
+    background-color: white;
+}
+
+.sec_c{
+    background-image: url(Images/backs.jpg);
+    background-size: cover;
+}
+
+.cpic{
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+}
+
+.sec_cpic{
+    height: 318px;
+    width: 916px;
+    margin-top: 62px;
+    object-fit: contain;
+    background-size: contain;
+    position: relative;
+    margin-left: 50px;
+}
+
+.caba_sub{
+    text-align: left;
+    padding-left: 30px;
+}
+.live{
+    color: white;
+    line-height: 1;
+    text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    font-size: 4.5rem;
+    padding-top: 50px;
+    width: auto;
+    margin: 0 auto 0 0;
+}
+
+.million{
+    color: white;
+    font-size: 1.875rem;
+    text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.4);
+    line-height: 1;
+}
+
+.month{
+    color: white;
+    font-size: 3rem;
+    margin-right: 10px;
+    margin-top: 55px;
+    text-shadow: 2px 2px 11px rgba(0, 0, 0, 0.4);
+    font-weight: 400;
+    width: 300px;
+}
+
+.cvtext{
+    color: white;
+    width: 300px;
+    font-size: 1.125rem;
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    margin-top: 20px;
+}
+
+.sec_d{
+    background-color: rgb(41,40,112);
+}
+
+.how{
+    color: orange;
+    font-size: 3rem;
+    font-weight: 400;
+    padding-top: 50px;
+    padding-left: 50px;
+    
+}
+
+.subds{
+    padding-left: 30px;
+    padding-top: 50px;
+    display: block;
+}
+
+.sec_d1{
+    color: orange;
+    padding-bottom: 50px;
+    
+}
+.sec_d1 h5{
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+    font-family: Roboto, sans-serif;
+    text-align: left;
+}
+
+.sec_d1 p{
+    color: #bebded;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 1.125rem;
+    width: 300px;
+}
+
+.fat{
+    color: orange;
+    font-size: 70px;
+    padding-bottom: 25px;
+    height: 88px;
+    width: 88px;
+}
+
+.d_butt{
+    border-radius: 50px;
+    border-style: none;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 1.125rem;
+    background-image: none;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.25);
+    margin: 20px auto 80px 30px;
+    padding: 15px 50px 13px 48px;
+    background-color: orange;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.d_butt:hover{
+    background-color: white;
+}
+
+.sec_e{
+    background-image: url(Images/aaaaa-min.jpg);
+    background-size: cover;
+    display: block;
+}
+
+.sec_epic{
+    margin-top: 29px;
+}
+
+.eba_sub{
+    color: white;
+    padding-left: 40px;
+}
+
+.ebalive{
+    font-size: 3.4375rem;
+}
+
+.ebaplay{
+    font-size: 1.25rem;
+    line-height: 1;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 50px;
+}
+
+.eba_sub p{
+    font-size: 1.375rem;
+    padding-bottom: 50px;
+    width: 300px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    font-weight: 100;
+}
+
+.ebutt{
+    border-radius: 50px;
+    border-style: none;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 1.125rem;
+    background-image: none;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.25);
+    margin: 3px auto 80px 0px;
+    padding: 15px 50px 13px 48px;
+    background-color: orange;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+}
+.ebutt:hover{
+    background-color: white;
+    color: rgb(41,40,112);
+}
+
+.sec_f{
+    background-color: rgb(41,40,112);
+}
+
+.sec_fsub h3{
+    color: orange;
+    font-size: 3rem;
+    font-weight: 400;
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 400px;
+}
+.sec_fsub p{
+    color: white;
+    width: 350px;
+    font-size: 1.125rem;
+    line-height: 1.7;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 80px;
+    padding-left: 50px;
+}
+
+.fbutt{
+    border-radius: 50px;
+    border-style: none;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 1.125rem;
+    background-image: none;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.25);
+    margin: 3px auto 70px 50px;
+    padding: 15px 50px 13px 48px;
+    background-color: orange;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: rgb(41,40,112);
+}
+.fbutt:hover{
+    background-color: white;
+}
+
+.fpic{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 100px;
+    box-sizing: border-box;
+}
+.fpicsubs{
+    padding-bottom: 50px;
+}
+
+.sec_g{
+    background-image: url(Images/lastppp.jpg);
+    background-size: cover;
+    display: block;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+.gsub{
+    background-color: white;
+    border-width: 1px;
+    box-sizing: border-box;
+    min-height: 482px;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 5px 5px 0px 0 rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+.gsub h3{
+    font-weight: 700;
+    font-size: 1.875rem;
+    color: #292870 ;
+    text-align: left;
+}
+.gsub p{
+    width: 490px;
+    font-size: 20px;
+    color: #292870;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.gac{
+    font-size: 20px;
+    color: #292870;
+    padding: 10px;
+}
+.gacs{
+    display: flex;
+    margin-top: 10px;
+}
+.gacs p{
+    font-size: 15px;
+}
+.num{
+    text-decoration: none;
+    color: #292870;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    
+}
+
+.fa-brands{
+    font-size: 30px;
+    color: #292870;
+    margin: 4px;
+}
+
+.brandg{
+    padding-left: 10px;
+}
+
+.gform{
+    width: 100%;
+    background-color: orange;
+    border: none;
+    margin-bottom: 4px;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.weg{
+    margin-top: 20px;
+}
+.weggs{
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+    border: none;
+    margin-bottom: 4px;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-bottom: 65px;
+    padding-left: 12px;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+
+.formsubmit{
+    background-color: #292870;
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.foot{
+    background-color: #292870;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    
+}
+.foot p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+    .abut{
+        border-radius: 50px;
+        border-style: none;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-size: 1.125rem;
+        align-self: center;
+        text-transform: uppercase;
+        box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.4);
+        margin: 70px 10px 10px 30px;
+        padding: 14px 40px 15px 38px;
+       
+    }
+    .abut_grp{
+        margin-left: 50px;
+        display: flex;
+    }
+    .sec_a h1{
+        width: 1200px;
+    }
+    .head{
+       padding-left:380px;
+       padding-bottom: 50px;
+    
+    }
+
+    .apic{
+        height: 493px;
+        width: 916px;
+        margin: 33px auto 0;
+        object-fit: contain;
+        background-size: contain;
+    }
+
+   
+
+    .sec_b_sub{
+        background-color: rgb(41,40,112);
+        color: orange;
+        gap: 320px;
+        box-sizing: border-box;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        position: relative;
+        padding-top: 70px;
+    }
+
+    .textb{
+        padding-left: 60px;
+        width: 500px;
+        padding-top: 70px;
+    }
+
+ 
+
+    .sec_bpic{
+        border-radius: 50% !important;
+        object-fit: cover;
+        display: block;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        width: 227px;
+        height: 227px;
+        background-position: 50% 50%;
+        margin: 0 283px 50px 0;
+        
+    }
+
+    .benefit{
+        font-weight: 700;
+        align-self: flex-start;
+        font-size: 1.875rem;
+        line-height: 1.2;
+        font-family: Roboto, sans-serif;
+    }
+
+
+    .sec_cpic{
+        height: 543px;
+        width: 916px;
+        margin-top: 95px;
+        margin-right: 100px;
+        object-fit: cover;
+        display: block;
+        background-size: cover;
+        object-fit: contain;
+        background-size: contain;
+    }
+    .cpic{
+        display: flex;
+    }
+
+    .live{
+        color: white;
+        line-height: 1;
+        text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.4);
+        font-weight: 700;
+        font-size: 4.5rem;
+        margin-top: 50px;
+    }
+    
+    .million{
+        color: white;
+        font-size: 2.25rem;
+        text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.4);
+        line-height: 1;
+        letter-spacing: 4px;
+    }
+
+    .sec_c{
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    .caba{
+        display: flex;
+      
+    }
+    .caba_sub{
+        margin-right: 150px;
+        box-sizing: border-box;
+    }
+    .month{
+        padding-top: 100px;
+    }
+
+    .subds{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .how{
+        font-size: 4rem;
+        margin-left: 60px;
+    }
+    .d_butt{
+        margin-left: 100px;
+    }
+    .sec_e{
+        display: flex;
+    }
+    .sec_epic{
+        height: 455px;
+        margin-top: 80px;
+    }
+    .eba{
+        display: flex;
+    }
+    .eba_sub{
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .ebalive{
+        font-size: 6rem;
+        line-height: 1;
+        text-shadow: 3px 3px 13px rgba(0, 0, 0, 0.25);
+        font-weight: 700;
+        margin-top: 50px;
+    }
+    .ebaplay{
+        line-height: 1;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-weight: 400;
+        font-size: 1.875rem;
+    }
+    .eba_sub p{
+        font-size: 1.5rem;
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
+        width: 600px;
+    }
+    .ebutt{
+        margin-left: -5px;
+    }
+
+    .f_sub{
+        display: flex;
+     
+    }
+    .sec_fsub{
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+    }
+    .sec_fsub h3{
+        font-size: 3.75rem;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+    .sec_fsub p{
+        line-height: 1.8;
+        width: 780px;
+    }
+    .fpic{
+        height: 350px;
+      
+    }
+
+    .fpicsubs{
+       padding: 80px;
+       justify-content: none;
+    }
+    .baka{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 1px;
+        box-sizing: border-box;
+        justify-content: none;
+
+    }
+
+    .gsub{
+        width: 940px;
+        border-radius: 30px;
+        justify-content: center;
+        min-height: 448px;
+        position: relative;
+        flex: 1;
+        max-width: 100%;
+        padding: 60px 46px 60px 60px;
+        margin-left: 280px;
+        
+    }
+    .sec_g{
+        object-fit: cover;
+        position: relative;
+        vertical-align: middle;
+        background-size: cover;
+        
+    }
+    .num{
+        font-size: 25px;
+    }
+    .gacs p{
+        font-size: 25px;
+    }
+
+   
+ 
+    
+
+
+
+}
