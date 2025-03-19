@@ -165,10 +165,14 @@ body{
 }
 
 .sec_c{
-/*     background-image: url(Images/backs.jpg); */
+    
      background-color:red; 
     background-size: cover;
 }
+
+.caba{
+    background-image: url(Images/backs.jpg);
+}   
 
 .cpic{
     position: relative;
